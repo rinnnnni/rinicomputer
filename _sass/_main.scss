@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@400;500&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap');
 
 *,:after,:before {
 	box-sizing:border-box;
@@ -10,11 +10,10 @@
 
 body {
 	background-color: lightgrey;
-	font-family: 'Cousine', monospace;
+	font-family: 'Raleway', serif;
 	line-height: 2;
 	font-size: 1rem;
 	color: rgb(83, 83, 83);
-	text-transform: lowercase;
 }
 
 nav ul {
@@ -106,6 +105,7 @@ header,section {
 blockquote {
 	font-style: italic;
     border-left: 5px solid #ececec;
+	margin: 1rem 0;
     padding-left: 1rem;
 }
 
@@ -120,7 +120,7 @@ section h1:first-child {
 }
 
 strong, b {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .photos ul {
@@ -141,8 +141,8 @@ strong, b {
 
 .posts li {
 	align-items:center;
-	display:flex;
-	justify-content:space-between;
+	display: flex;
+	justify-content: space-between;
 	margin-bottom: .5rem;
 }
 
@@ -165,6 +165,15 @@ main {
 	max-width:60rem;
 	margin:2rem auto;
 	padding:1rem;
+}
+
+.post ul {
+	margin: 1rem 0;
+}
+
+.post li {
+	list-style-type: circle;
+	margin-left: 1rem;
 }
 
 
